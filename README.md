@@ -8,7 +8,7 @@
 
 2. Also while getting the API response, type the response.
    
-   `then((data:user)=> setUser(data))`
+   `then((data:User)=> setUser(data))`
 
 3. In *useEffect* hook, dependency array is missing "userId"
 4. Logic for *loading* would work only the first time. When there is a new "userId" passsed, user will not be notified of loading phase. I would rather use another state variable called *loading* to toggle on before *fetch* operation and toggle-off in the finally block.
@@ -42,7 +42,7 @@
         expect(screen.getByText('UI Lead')).toBeInTheDocument();
       });
        ```
-      + Hanlding of error scenario
+   + Hanlding of error scenario
       
 
 
