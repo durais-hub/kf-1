@@ -1,6 +1,3 @@
-### kf-1
-its for coding round 
-
 # Excercise 1 - Code review
 
 ## Code Review comments for the UI component.
